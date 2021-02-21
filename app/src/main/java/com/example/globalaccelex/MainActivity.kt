@@ -19,9 +19,7 @@ class MainActivity : AppCompatActivity() {
         viewModel.lookUpResponse.observe(this, Observer {res ->
             println("DEBUG: $res")
         })
-
         viewModel.setBinLookUpNumber("45717360")
-
     }
 
     override fun onDestroy() {
