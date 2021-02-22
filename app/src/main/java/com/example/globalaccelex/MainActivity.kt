@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
     private fun observeLookUpResponseData() {
         viewModel.lookUpResponse.observe(this, renderLookupResponseData)
     }
-//    4571 7360
+
     // --> Observers
     private val  renderLookupResponseData = Observer<BinLookUpResponse> {
         Log.v("DEBUG", "Data Updated $it")
