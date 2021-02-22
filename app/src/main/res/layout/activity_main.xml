@@ -31,6 +31,7 @@
         android:layout_marginRight="16dp"
         android:digits="0123456789- "
         android:ems="10"
+        android:letterSpacing="0.12"
         android:hint="1234 - 5678 - 9012 - 2345"
         android:inputType="number"
         android:maxLength="25"
