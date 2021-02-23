@@ -1,5 +1,5 @@
 # GlobalAccelex
-<img src="prozone.png"  width="40%" height="40%" />
+<img src="demo.gif"  width="40%" height="40%" />
 
 An mobile service for looking up credit and debit card meta data based on https://binlist.net/ in realtime
 
